@@ -1,0 +1,524 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+p {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color:#666;
+}
+
+.tag-manager{
+    display:none;
+    visibility:hidden
+}
+
+/*------------------------------------------------------*/
+/* HEADER */
+
+header{
+    height:85rem;
+}
+
+
+.header-p{
+    color: white;
+}
+
+.btn-whatsapp{
+    position: fixed;
+    top: 80%;
+    left:90%;
+    height:8rem; 
+    z-index: 2;
+}
+
+.img-banner{
+    position: absolute;
+    object-fit: cover;
+    width:100%;
+    height:60rem; 
+    transform: scaleX(-1);
+    z-index: 0;
+}
+/* .img-banner-2{
+    position: absolute;
+    height:30rem;
+    width:100%;
+    object-fit: cover;
+} */
+
+.barra-nav{
+    height:8rem ;
+}
+
+.nav-links{
+    all:unset;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    cursor: pointer;
+    color:black;
+}
+
+.texto-1{
+    color:white;
+    z-index: 1;
+}
+.btns-contacto-1{
+    position: relative;
+    top:50px;
+}
+
+button{
+    all: unset;
+    background: #bf1b2c;
+    color:white;
+    height:3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 45px;
+    margin:0.3rem;
+    transition: background-color 0.5s ease-out;
+}
+
+
+button:hover{
+    background: limegreen;
+}
+
+.button-link{
+    all:unset;
+    cursor:pointer;
+}
+
+.btn-agende{
+    font-size: 2rem;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.h-tarjetas{
+    /* border:1px solid red; */
+    color:white;
+    position: relative;
+    top:15rem;
+    z-index:1;
+}
+.h-tarjeta{
+    background: #bf1b2c;
+}
+
+.h-tarjeta-titulo{
+    text-align: center;
+}
+/*------------------------------------------------------*/
+/* MAIN */
+.section-titulo-0{
+    position:relative;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.section-titulo{
+    position:relative;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4rem;
+}
+.section-texto{
+    text-align: center;
+}
+
+.chancho{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.servicios, .clientes{
+    background:#F2F6F9;
+    padding-top: 3rem;
+}
+
+.serv-tarjeta{
+    background:white;
+    position: relative;
+    transition: all 0.5s ease-out;
+}
+.serv-tarjeta:hover{
+    transform: translateY(-1.5rem);
+    background:#ccffcc;
+}
+
+.icon{
+    width:7rem;
+}
+
+.linea{
+    width:10%;
+    background: #bf1b2c;
+    border:5px solid #bf1b2c;
+    opacity: 1;
+    transition: all 0.5s ease-out;
+}
+.serv-tarjeta:hover > .linea{
+    width:100%;
+}
+
+
+.opiniones{
+    background: linear-gradient(to right, #DEE4F3, #FEFEFF);
+}
+
+.opinion-tarjeta{
+    background:white;
+    position: relative;
+    transition: all 0.5s ease-out;
+}
+.opinion-tarjeta:hover{
+    transform: translateY(-1.5rem);
+}
+
+.imagen-perfil{
+    width:100%;
+}
+.tarjeta-perfil-0{
+    background:white;
+    position: relative;
+    transition: all 0.5s ease-out;
+}
+.tarjeta-perfil-0:hover{
+    transform: translateY(-1.5rem);
+    background:#bf1b2c;
+}
+.tarjeta-perfil{
+    color:#bf1b2c;
+    transition: all 0.5s ease-out;
+}
+
+.tarjeta-perfil-0:hover > .titulo-dato-contacto{
+    color:white;
+}
+.dato-contacto{
+    font-size: 1.2rem;
+    color:#bf1b2c;
+}
+.tarjeta-perfil-0:hover > .dato-contacto{
+    color:white;
+}
+
+.whatsapp-1{
+    font-size: 1.5rem;
+}
+.whatsapp-2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.whatsapp-3{
+    font-size: 3rem;
+    font-weight: 600;
+    color:#bf1b2c;
+}
+
+/*------------------------------------------------------*/
+/* FOOTER */
+
+.pago{
+    background:#FAFAFA;
+}
+
+.footer-final{
+    background:#15171A;
+    background-image: url("/assets/images/emex_2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+}
+
+.footer-creditos{
+    background:black;
+    color:white;
+}
+.footer-servicios{
+    transition: all 0.5s ease-out;
+}
+.footer-servicios:hover {
+    color: #bf1b2c;
+}
+
+.cianware{
+    text-decoration: none;
+}
+
+.logo-dark{
+    position: relative;
+    top:-33rem;
+    left:40%;
+
+    z-index:0;
+}
+
+.footer-info{
+    color:white;
+    position: relative;
+    top:-1.3rem;
+}
+
+.linea-2{
+    width:10%;
+    background: #bf1b2c;
+    border:3px solid #bf1b2c;
+    opacity: 1;
+    transition: all 0.5s ease-out;
+    position: relative;
+    top:-1.5rem;
+}
+.footer-div:hover > .linea-2{
+    width:50%;
+}
+
+.enlaces-rapidos{
+    cursor:pointer;
+    text-decoration: none;
+    color:white;
+    transition: all 0.5s ease-out;
+}
+.enlaces-rapidos:hover{
+    color: #bf1b2c;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+/*------------------------------------------------------*/
+/* HEADER */
+
+header{
+    height:130rem;
+}
+.header-2{
+    height:16rem;
+    background-size: cover;
+}
+
+.logo-emex{
+    width: 10rem;
+}
+
+.img-banner-2{
+    position: absolute;
+    height:17rem;
+    width:100%;
+    object-fit: cover;
+}
+
+.btn-whatsapp{
+    position: fixed;
+    top: 80%;
+    left:75%;
+    height:5rem; 
+    z-index: 2;
+}
+
+.texto-1 {
+    width:90%;
+    position: relative;
+    top:150px;
+    text-align: center;
+}
+.texto-1 > h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.texto-1 > p {
+    text-align: center;
+    position: relative;
+    top:1.5rem;
+}
+
+.titulo-pag-2{
+    position: relative;
+    left:-15%;
+}
+
+
+/*------------------------------------------------------*/
+/* MAIN */
+.serv-titulo{
+    width:90%;
+}
+
+.partner-container{
+    width: 45%;
+    margin: 0.4rem;
+    background:white;
+}
+.partner{
+    width:90%;
+}
+
+.whatsapp-1{
+    font-size: 1.5rem;
+}
+.whatsapp-2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.whatsapp-3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color:#bf1b2c;
+}
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    /*------------------------------------------------------*/
+/* HEADER */
+header{
+    height:115rem;
+}
+
+/*------------------------------------------------------*/
+/* MAIN */
+
+
+/*------------------------------------------------------*/
+/* FOOTER */
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    
+/*------------------------------------------------------*/
+/* HEADER */
+header{
+    height:70rem;
+}
+
+.texto-1{
+    width:60%;
+}
+
+.btn-whatsapp{
+    position: fixed;
+    top: 80%;
+    left:90%;
+    height:8rem; 
+    z-index: 2;
+}
+/*------------------------------------------------------*/
+/* MAIN */
+
+
+/*------------------------------------------------------*/
+/* FOOTER */
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+/*------------------------------------------------------*/
+/* HEADER */
+
+header{
+    height:75rem;
+}
+
+.header-2{
+    height:28rem;
+}
+
+.logo-emex{
+    /* height:80%; */
+    width: 16rem;
+}
+
+.img-banner-2{
+    position: absolute;
+    height:30rem;
+    width:100%;
+    object-fit: cover;
+}
+
+.texto-1 {
+    width:55%;
+    position: relative;
+    top:170px;
+    left:-200px;
+    text-align:left;
+}
+.texto-1 > h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.texto-1 > p {
+    text-align:left;
+    position: relative;
+    top:1rem;
+    font-size: 1.5rem;
+}
+
+.titulo-pag-2{
+    position: relative;
+    left:0%;
+}
+
+/*------------------------------------------------------*/
+/* MAIN */
+.serv-titulo{
+    width:40%;
+}
+
+.partner-container{
+    width: 20%;
+    margin: 1rem;
+    background:white;
+    transition: all 0.5s ease-out;
+}
+.partner{
+    width: 90%;
+}
+.partner-container:hover{
+    transform: translateY(-1.5rem);
+}
+.serv-tarjeta:hover{
+    transform: translateY(-1.5rem);
+
+}
+
+.whatsapp-1{
+    font-size: 1.5rem;
+}
+.whatsapp-2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.whatsapp-3{
+    font-size: 3rem;
+    font-weight: 600;
+    color:#bf1b2c;
+}
+
+
+/*------------------------------------------------------*/
+/* FOOTER */
+
+.pago-imagen{
+    width:80%;
+}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
